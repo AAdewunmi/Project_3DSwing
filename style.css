@@ -14,6 +14,16 @@ html{
     background-image: radial-gradient(
         closest-side at 5% 10%,
         rgb(0, 0, 0),
-        rgb(11, 54, 88)
+        rgb(11, 54, 88) 1000%
     );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swing{
+    width: 40rem;
+    height: 20rem;
+    background-color:rgba(206, 216, 91, 0.7);
+    transform: rotateX(70deg) rotateZ(-40deg) rotateY(5deg);
 }
