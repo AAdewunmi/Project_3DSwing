@@ -39,3 +39,14 @@ html{
     transform: rotateY(90deg);
     transform-origin: left;
 }
+
+.swing::after{
+    content: "";
+    height: 1rem;
+    width: 100%;
+    background-color: #e2ec6c;
+    position: absolute;
+    bottom: 0;
+    transform: rotateX(90deg);
+    transform-origin: bottom;
+}
