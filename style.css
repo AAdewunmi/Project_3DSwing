@@ -56,4 +56,11 @@ html{
     height: 3rem;
     background-color: #c5c757;
     border-radius: 50%;
+    position: absolute;
 }
+
+.circle-1{
+    top: 1rem;
+    left: 1rem;
+}
+
