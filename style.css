@@ -50,3 +50,10 @@ html{
     transform: rotateX(90deg);
     transform-origin: bottom;
 }
+
+.circle{
+    width: 3rem;
+    height: 3rem;
+    background-color: #c5c757;
+    border-radius: 50%;
+}
