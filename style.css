@@ -97,6 +97,9 @@ html{
     width: 00.3rem;
     background-color: #fff;
     position: absolute;
+    transform: translateZ(20rem) rotateX(90deg)
+    rotateY(90deg);
+    transform-origin: top;
 }
 
 .rope-1{
