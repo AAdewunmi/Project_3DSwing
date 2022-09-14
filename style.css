@@ -59,7 +59,7 @@ html{
     position: absolute;
     display: grid;
     place-items: center;
-    #transform-style: preserve-3d;
+    transform-style: preserve-3d;
 }
 
 .circle-1{
@@ -89,6 +89,6 @@ html{
     background-color: #e9d8d8;
     position: absolute;
     border-radius: 50%;
-    #transform: translateZ(0.3rem);
+    transform: translateZ(0.3rem);
 }
 
