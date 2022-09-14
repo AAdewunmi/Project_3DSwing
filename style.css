@@ -92,3 +92,10 @@ html{
     transform: translateZ(0.3rem);
 }
 
+.rope{
+    height: 40rem;
+    width: 00.3rem;
+    background-color: #fff;
+    position: absolute;
+}
+
