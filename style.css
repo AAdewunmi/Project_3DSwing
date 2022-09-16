@@ -180,3 +180,7 @@ html{
 .swing-2{
     animation: swingAnim 20s -4s infinite ease-in-out;
 }
+
+.swing-3{
+    animation: swingAnim 20s -8s infinite ease-in-out;
+}
