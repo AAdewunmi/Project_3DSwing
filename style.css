@@ -189,4 +189,7 @@ html{
     animation: swingAnim 20s -12s infinite ease-in-out;
 }
 
+.swing-5{
+    animation: swingAnim 20s -16s infinite ease-in-out;
+}
 
