@@ -197,6 +197,10 @@ html{
     animation: swing6Anim 4s -1s infinite ease-in-out;
 }
 
+.swing-6 div:not(.ball){
+    opacity: 0;
+}
+
 
 .ball{
     width: 7rem;
