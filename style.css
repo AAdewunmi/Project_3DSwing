@@ -20,6 +20,7 @@ html{
     justify-content: center;
     align-items: center;
     perspective: 150rem;
+    overflow: hidden;
 }
 
 .swing{
@@ -30,6 +31,7 @@ html{
     transform-style: preserve-3d;
     position: absolute;
     top: 50%;
+    transform-origin: top;
 }
 
 .swing::before{
@@ -169,5 +171,9 @@ html{
         transform: rotateX(70deg) rotateZ(-40deg) 
         rotateY(5deg) translateY(-800rem);
     }
+}
+
+.swing-1{
+    animation: swingAnim 20s infinite ease-in-out;
 }
 
