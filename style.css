@@ -209,3 +209,17 @@ html{
     box-shadow: 0 0 0.2rem #333;
 }
 
+@keyframes swing6Anim{
+    0%{
+        transform: rotateX(70deg) rotateZ(-40deg)
+        rotateY(5deg) translateY(0);
+    }
+    50%{
+        transform: rotateX(70deg) rotateZ(-40deg)
+        rotateY(5deg) translateY(30rem);
+    }
+    100%{
+        transform: rotateX(70deg) rotateZ(-40deg)
+        rotateY(5deg) translateY(0);
+    }
+}
